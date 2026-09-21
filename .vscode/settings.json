@@ -1,0 +1,9 @@
+{
+  // Deliberately does NOT set shellcheck.ignoreFileSchemes:
+  // the default blocklist (["git", "gitfs", "output"]) is what allows the
+  // rehydrated chat-editing documents to be linted. Adding the workaround
+  // here would prevent the reproduction.
+  "shellcheck.enable": true,
+  "shellcheck.run": "onType",
+  "editor.formatOnSave": false
+}

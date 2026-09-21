@@ -1,0 +1,7 @@
+{
+  // Workspace-recommended extensions. A clean repro profile should have
+  // ONLY these enabled (plus built-in Copilot Chat).
+  "recommendations": [
+    "timonwong.shellcheck"
+  ]
+}
